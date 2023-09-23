@@ -1,0 +1,177 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+    
+
+
+/* Styling for the header */
+header {
+   font-family: 'Familjen Grotesk'; 
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    background: linear-gradient(to right,rgb(62, 125, 212), rgb(69,214,202));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-justify: center;
+    background-color: rgb(245, 252, 205);
+
+
+}
+h2{
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(245, 252, 205);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+
+/* Styling for the main content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: rgb(218, 255, 251);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styling for the digital well-being section */
+.digital-wellbeing {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+/* Styling for the progress bar container */
+#progressBarContainer {
+    background-color: #ccc; /* Grey background color */
+    height: 20px; /* Adjust the height as needed */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Clip the progress bar */
+}
+
+/* Styling for the progress bar itself */
+#progressBar {
+    width: 0;
+    height: 100%;
+    background-color: #fcdc00; /* Yellow filling bar */
+    transition: width 0.5s; /* Add smooth animation to width changes */
+}
+/*  footer */
+.footer-row {
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(245, 252, 205);
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    padding: 60px 20px;
+    margin-top: 100px;
+}
+
+.footer-row p {
+    color: grey;
+}
+
+.footer-row li {
+    color: grey;
+}
+
+.first {
+    width: 250px;
+}
+
+.footer-row li {
+    list-style: none;
+}
+.footer-row {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 40px 40px;
+    margin-top: 40px;
+}
+
+.footer-row .first {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.second,
+.third {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-row ul {
+    padding: 10px;
+}
+
+.footer-row li {
+    margin-bottom: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(218, 255, 251);
+  }
+  .flex li {
+    list-style: none;
+}
+
+.flex li:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .log {
+    margin-top: 20px;
+  }
+  
+  .log ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .log li {
+    margin-bottom: 5px;
+  }
+  .main{
+     flex-direction: row;
+  }
+h3{
+    color: #334B49;
+}
