@@ -222,6 +222,7 @@ button:hover::before{
     font-family: sans-serif;
     padding: 50px;
     margin-top: 50px;
+    color: #4A6361;
 }
 .main{
     margin-bottom: 20px;
@@ -236,4 +237,50 @@ button:hover::before{
     padding: 5pt;
     font-family: 'poppins';
     color: #4A6361;
+}
+@media   (max-width : 500px) {
+    header {
+        font-family: 'Familjen Grotesk'; 
+         color: #fff;
+         padding: 40px;
+         text-align: center;
+         font-size: 1.5rem;
+         background: linear-gradient(to right,rgb(62, 125, 212), rgb(69,214,202));
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         text-justify: center;
+         background-color: rgb(245, 252, 205);
+     
+     
+     }
+     .container {
+        max-width: 300px;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: rgb(245, 252, 205);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+    }
+    .infovrld{
+        background-color: rgb(245, 252, 205);
+        border-radius: 5%;
+        font-size: medium;
+        font-family: sans-serif;
+        padding: 25px;
+        margin-top: 50px;
+        color: #4A6361;
+    }
+    footer {
+        background-color: rgb(218, 255, 251);
+        color: #fff;
+        text-align: center;
+        padding: 0px;
+        padding-right: 20px;
+        font-size: small;
+    ;
+        
+    }
+    
 }
