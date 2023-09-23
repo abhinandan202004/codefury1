@@ -236,7 +236,7 @@ button:hover::before{
     font-family: 'poppins';
     color: #4A6361;
 }
-@media   (max-width : 500px) {
+@media   (max-width : 580px) {
     header {
         font-family: 'Familjen Grotesk'; 
          color: #fff;
