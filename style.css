@@ -25,6 +25,9 @@ header {
 h2{
     text-align: center;
 }
+.form{
+    padding: auto;
+}
 .container {
     max-width: 800px;
     width: 100%;
@@ -52,28 +55,7 @@ footer {
     padding: 10px;
 }
 
-/* Styling for the digital well-being section */
-.digital-wellbeing {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: center;
-}
-/* Styling for the progress bar container */
-#progressBarContainer {
-    background-color: #ccc; /* Grey background color */
-    height: 20px; /* Adjust the height as needed */
-    border-radius: 5px; /* Rounded corners */
-    overflow: hidden; /* Clip the progress bar */
-}
 
-/* Styling for the progress bar itself */
-#progressBar {
-    width: 0;
-    height: 100%;
-    background-color: #fcdc00; /* Yellow filling bar */
-    transition: width 0.5s; /* Add smooth animation to width changes */
-}
 /*  footer */
 .footer-row {
     color: white;
@@ -81,7 +63,7 @@ footer {
     background-color: rgb(245, 252, 205);
     display: flex;
     justify-content: center;
-    gap: 15%;
+    gap: inherit;
     padding: 60px 20px;
     margin-top: 100px;
 }
@@ -155,7 +137,7 @@ body {
   }
   
   .form input {
-    width: 100%;
+    width: auto;
     padding: 10px;
     margin-bottom: 10px;
     font-family: 'poppins';
@@ -180,20 +162,26 @@ h3{
     color: #4A6361;
 }
 input{
-    color: #4A6361;
+    
+    width: -webkit-fill-available;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'poppins';
 }
 button{
     border: 1px solid #4A6361;
     background: #4A6361;
+    border-radius: 20px;
     padding: 5px 10px;
     font-size: 15px;
+    font-family: Arial, sans-serif;
     cursor : pointer;
     margin: 10px;
     transform: 0.8s;
     position: relative;
     overflow: hidden;
     color: aquamarine;
-    font-family: "montserrat";
+
 
 }
 button:hover{
@@ -223,6 +211,16 @@ button:hover::before{
     padding: 50px;
     margin-top: 50px;
     color: #4A6361;
+}
+.onharrsmnt{
+    background-color: rgb(245, 252, 205);
+    border-radius: 5%;
+    font-size: medium;
+    font-family: sans-serif;
+    padding: 50px;
+    margin-top: 50px;
+    color: #4A6361;
+
 }
 .main{
     margin-bottom: 20px;
@@ -271,6 +269,9 @@ button:hover::before{
         padding: 25px;
         margin-top: 50px;
         color: #4A6361;
+        li{
+            padding: 20px;
+        }
     }
     footer {
         background-color: rgb(218, 255, 251);

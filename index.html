@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          if ("Notification" in window) {
+              Notification.requestPermission();
+          }
+      });
+  </script>
     <title>Healthy Headspace</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +31,7 @@
           <label for="activity">Activity:</label>
           <input type="text" id="activity" placeholder="Enter activity">
           <label for="duration">Duration (mins):</label>
+          
           <input type="number" id="duration" placeholder="Enter duration">
           <button onclick="addActivity()">Add Activity</button>
         </div>
@@ -33,7 +41,7 @@
         </div>
       </div>
       <!-- ... previous HTML content ... -->
-
+<br>
 <div class="container">
     <section class="user-list">
         <h2>User List</h2>
@@ -50,15 +58,16 @@
         <form id="addUserForm">
           <div class="user">
             <label  for="name">Name:</label>
-            <input type="text" id="name" required>
+            <input type="text" id="name" placeholder="Anonymous">
           </div>
           <div class="user">
             <label  for="email">Email:</label>
-            <input type="email" id="email" required>
+            <input type="email" id="email" placeholder="namexample@mail.com" required>
+          
           </div>
             <button type="submit">Add User</button>
         </form>
-        <button id="deleteUser">Delete User</button>
+        <button  id="deleteUser">Delete User</button>
     </section>
 </div>
 
@@ -69,39 +78,51 @@
         <h2>Information Overload</h2>
         <p>Information overload is a situation in which an individual is exposed to an excessive amount of information, often to the point where it becomes overwhelming and challenging to process or use effectively. This phenomenon is increasingly common in today's digital age due to the rapid proliferation of information sources, such as the internet, social media, emails, and more. Dealing with information overload requires strategies to manage and prioritize information effectively. Here are some steps to help you deal with information overload:
         </p>
-        <ol>
-        <li>Recognize the Issue:
+        <ol >
+        <li style="padding: 10px;">Recognize the Issue:
             - Awareness is the first step. Acknowledge that you are experiencing information overload and that it can impact your productivity, decision-making, and overall well-being.
          </li>
-        <li>Prioritize Your Information Sources:
+        <li style="padding: 10px;">Prioritize Your Information Sources:
             - Identify the most valuable and reliable sources of information for your work or personal life. Focus your attention on these sources and limit exposure to less essential ones.
          </li>
-        <li>
+        <li style="padding: 10px;">
             Set Clear Objectives:
                - Clearly define your goals and objectives when seeking information. Knowing what you're looking for helps you filter out irrelevant data.
             </li>
-        <li>Establish Information Filters:
+        <li style="padding: 10px;">Establish Information Filters:
             - Use filters, search engines, and tools like email filters, RSS feeds, and content aggregators to screen and organize incoming information. Create specific folders or labels to categorize information.
          </li>
-        <li>
+        <li style="padding: 10px;">
             Unsubscribe and Declutter:
                - Regularly unsubscribe from newsletters, mailing lists, and notifications that are no longer relevant. Declutter your inbox and social media feeds.
             </li>
-        <li>Time Management:
+        <li style="padding: 10px;">Time Management:
             - Allocate specific times in your day for checking emails and social media. Avoid checking constantly, as this can disrupt your workflow.
          </li>
-        <li>Practice Digital Detox:
+        <li style="padding: 10px;">Practice Digital Detox:
             - Take regular breaks from screens and information consumption to recharge. Engage in activities that don't involve digital devices.
          </li>
-        <li>Use Information Management Tools:
+        <li style="padding: 10px;">Use Information Management Tools:
             - Employ digital tools like note-taking apps, to-do lists, and task managers to organize and track important information and tasks.
-         
+            
          </li>
     </ol>
-    </div>
+    </div >
+    <div class="onharrsmnt">
     <h2> Online Harrasment</h2>
-    
-    </div>
+    <p>Getting away from online harassment is crucial for maintaining mental health and well-being in the digital age. Here are some important points to help individuals deal with online harassment:</p>
+    <ol>
+      <li style="padding: 10px;">Recognize and Acknowledge: The first step is to recognize when you are being harassed online. Understand that online harassment can take various forms, including cyberbullying, trolling, hate speech, and doxxing. Acknowledge your feelings and the impact it has on you.</li>
+      <li style="padding: 10px;">Don't Engage: It can be tempting to respond to online harassers, but it's often better to disengage. Responding can escalate the situation and provide harassers with the attention they seek. Block or mute the harasser instead.</li>
+      <li style="padding: 10px;">Document Evidence: Keep records of the harassment, including screenshots, messages, or any other form of evidence. This documentation can be useful if you decide to report the harassment to authorities or the platform.</li>
+      <li style="padding: 10px;">Use Privacy Settings: Adjust your privacy settings on social media platforms to control who can interact with you and who can see your posts. Limit your personal information visible to the public.</li>
+      <li style="padding: 10px;">Report to the Platform: Most online platforms have reporting mechanisms for harassment. Use these features to report abusive behavior. They may take action against the harasser and remove offensive content.</li>
+      <li style="padding: 10px;">Seek Support: Reach out to friends, family, or a counselor for emotional support. Discussing your experiences with someone you trust can help alleviate the emotional toll of harassment.</li>
+      <li style="padding: 10px;">Stay Calm and Avoid Retaliation: It's important to remain calm and composed. Retaliating or responding aggressively can make the situation worse and may also violate platform rules.</li>
+      <li style="padding: 10px;">Consider Legal Action: In extreme cases, consult with legal authorities or an attorney to explore options for legal action against the harasser. Laws vary by jurisdiction, so it's important to understand your rights.</li>
+    </ol>
+  </div>
+  </div>
 
     
     <footer>
