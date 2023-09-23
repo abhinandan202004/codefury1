@@ -277,10 +277,13 @@ button:hover::before{
         color: #fff;
         text-align: center;
         padding: 0px;
-        padding-right: 20px;
+        padding-right: 10px;
         font-size: small;
     ;
         
     }
+
+
+   
     
 }
